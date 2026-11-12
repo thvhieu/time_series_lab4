@@ -1,0 +1,33 @@
+{
+  "filename": "METR-LA.h5",
+  "sha256": "64784b76d6fb8ec9bff4b6decafb354da2bb37840468fdccee5044e511277c05",
+  "bytes": 57038056,
+  "shape": [
+    34272,
+    207
+  ],
+  "start": "2012-03-01 00:00:00",
+  "end": "2012-06-27 23:55:00",
+  "timezone": "None",
+  "index_monotonic": true,
+  "duplicate_timestamps": 0,
+  "expected_step_minutes": 5,
+  "non_5minute_intervals": 0,
+  "nan_values": 0,
+  "nonfinite_values": 0,
+  "zero_values": 575302,
+  "sensor_ids_sample": [
+    "773869",
+    "767541",
+    "767542",
+    "717447",
+    "717446"
+  ],
+  "path": "data/traffic/METR-LA.h5",
+  "hdf_group": "df",
+  "provided_by": "user",
+  "benchmark_reference": "https://github.com/liyaguang/DCRNN",
+  "unit": null,
+  "unit_note": "Confirm speed unit from benchmark metadata; do not infer timezone from naive timestamps.",
+  "zero_policy": "TODO: confirm observed zero versus missing; share mask across all models."
+}

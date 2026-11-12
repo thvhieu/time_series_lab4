@@ -1,0 +1,41 @@
+{
+  "name": "time_series_lab4",
+  "dataset": "METR-LA",
+  "status": "TODO scaffold",
+  "group_size": 6,
+  "leader": "user (TV1)",
+  "data_status": "included_verified",
+  "data_path": "data/traffic/METR-LA.h5",
+  "deadline": null,
+  "split_ratios": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "lookback_steps": null,
+  "horizon_steps": [
+    3,
+    6,
+    12
+  ],
+  "timestep_minutes": 5,
+  "notebooks": [
+    "Lab4_Multivariate.ipynb",
+    "contributions/01_leader_integration.ipynb",
+    "contributions/02_preprocessing_features.ipynb",
+    "contributions/03_var.ipynb",
+    "contributions/04_xgboost.ipynb",
+    "contributions/05_lstm.ipynb",
+    "contributions/06_backtesting_evaluation.ipynb"
+  ],
+  "requirements": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08"
+  ]
+}
