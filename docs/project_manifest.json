@@ -1,7 +1,7 @@
 {
   "name": "time_series_lab4",
   "dataset": "METR-LA",
-  "status": "TODO scaffold",
+  "status": "completed",
   "group_size": 6,
   "leader": "user (TV1)",
   "data_status": "included_verified",
@@ -12,7 +12,7 @@
     0.15,
     0.15
   ],
-  "lookback_steps": null,
+  "lookback_steps": 12,
   "horizon_steps": [
     3,
     6,
